@@ -1,0 +1,54 @@
+body {
+  font-family: Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+}
+
+.languages {
+	display: flex;
+	justify-content: center;
+  margin: 0;
+  padding: 15px;
+}
+
+.languages button {
+	list-style-type: none;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.popular-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  border: solid red 2px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.popular-list li {
+  list-style-type: none; 
+}
+
+.popular-item {
+  margin: 20px;
+  text-align: center;
+  border: solid blue 2px;
+}
+
+.popular-rank {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.avatar {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.space-list-items {
+  margin: 0 auto;
+  padding: 15px 20px;
+}
+
+.list-btn {
+  margin: 0px 5px;
+}
