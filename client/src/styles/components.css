@@ -1,12 +1,69 @@
+html {
+ box-sizing: border-box;
+}
+
 body {
   font-family: Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
 }
 
+/***** Navbar ******/
+/* 1st Flex Container */
+.flex-nav {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  height: 50px;
+  align-items: stretch;
+  justify-content: center;
+}
+
+/* 1st Flex Items */
+.flex-nav li {
+  list-style: none;
+  flex: 0 1 100px;
+  text-align: center;
+  display: flex; /* 2nd flex Container */
+}
+
+/* 2nd Flex Items */
+.flex-nav a {
+  flex: 1 1 100%;
+  display: flex; /* 3rd Flex Container */
+  align-items: center;
+}
+
+/* 3rd Flex Items */
+.flex-nav span {
+  display: block;
+  flex: 1 1 100%;
+}
+
+.flex-nav .activenav {
+  font-weight: bold;
+}
+
+/***** Home ******/
+/* Flex Container */
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* flex Items */
+.button {
+  padding: 10px 100px;
+  border-radius: 5px;
+  background-color: #87b5ff;
+}
+
+/**** Popular *****/
 .languages {
 	display: flex;
 	justify-content: center;
   margin: 0;
   padding: 15px;
+  background-color: #87b5ff;
 }
 
 .languages button {
@@ -15,23 +72,28 @@ body {
 	padding-left: 10px;
 }
 
+/* Flex Ccontainer */
 .popular-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  border: solid red 2px;
   padding: 0;
-  margin: 0 auto;
 }
 
+/* Flex Items */
 .popular-list li {
-  list-style-type: none; 
+  list-style-type: none;
+  margin: 10px; 
+  flex: 1 1 calc(20% - 20px);
+}
+
+.active:hover  {
+  background-color: #667896;
 }
 
 .popular-item {
   margin: 20px;
   text-align: center;
-  border: solid blue 2px;
+  background-color: #dcdee2;
 }
 
 .popular-rank {
@@ -51,4 +113,11 @@ body {
 
 .list-btn {
   margin: 0px 5px;
+}
+
+.loading {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  margin: 200px auto;
 }
