@@ -1,7 +1,7 @@
 React Fundamentals Video Project
 ========
 
-#### This is the repository for the project we'll build together during TylerMcGinnis.com's "React Fundamentals" course, for more information on the course see [tylermcginnis.com/courses](https://tylermcginnis.com/courses)
+#### This is the repository for the project we'll build together during TylerMcGinnis.com's "React Fundamentals" course.
 
 ## You can see the final project [here](https://rt-react-fundamentals.firebaseapp.com/)
 
